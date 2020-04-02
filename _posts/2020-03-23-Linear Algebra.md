@@ -2,6 +2,11 @@
 layout: page
 title: Linear Algebra
 tags: Math
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#123'
+  background_image: false
 ---
 
 Linear Algebra is manipulations of vectors and matrices.

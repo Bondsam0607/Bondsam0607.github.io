@@ -2,6 +2,11 @@
 layout: page
 title: HashTable
 tags: DSA
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#123'
+  background_image: false
 ---
 
 ## Why do we need hash table?

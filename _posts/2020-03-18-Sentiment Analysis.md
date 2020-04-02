@@ -2,6 +2,11 @@
 layout: page
 title: Sentiment Analysis
 tags: AI
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#123'
+  background_image: false
 ---
 
 Using LSTM to apply sentiment analysis.
