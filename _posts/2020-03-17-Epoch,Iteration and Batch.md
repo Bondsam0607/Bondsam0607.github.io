@@ -2,6 +2,7 @@
 layout: page
 title: Epoch,Iteration and Batch
 tags: AI
+excerpt_separator: <!--more-->
 article_header:
   type: overlay
   theme: dark
@@ -10,6 +11,8 @@ article_header:
 ---
 
 When it comes to training a model, *Epoch*,*Iteration* and *Batch* are often confusing. What do these three words really mean?
+
+<!--more-->
 
 ## Epoch
 

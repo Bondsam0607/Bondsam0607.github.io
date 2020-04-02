@@ -2,6 +2,7 @@
 layout: page
 title: Traversal
 tags: DSA
+excerpt_separator: <!--more-->
 article_header:
   type: overlay
   theme: dark
@@ -10,6 +11,8 @@ article_header:
 ---
 
 The core of traversal is iteration.
+
+<!--more-->
 
      1
       \

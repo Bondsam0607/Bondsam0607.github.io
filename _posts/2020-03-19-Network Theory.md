@@ -2,12 +2,15 @@
 layout: page
 title: 网络理论基础
 tags: 学校
+excerpt_separator: <!--more-->
 article_header:
   type: overlay
   theme: dark
   background_color: '#123'
   background_image: false
 ---
+
+<!--more-->
 
 ## 第二章 通信信源模型和M/M/1排队系统
 

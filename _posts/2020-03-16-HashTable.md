@@ -2,12 +2,15 @@
 layout: page
 title: HashTable
 tags: DSA
+excerpt_separator: <!--more-->
 article_header:
   type: overlay
   theme: dark
   background_color: '#123'
   background_image: false
 ---
+
+<!--more-->
 
 ## Why do we need hash table?
 

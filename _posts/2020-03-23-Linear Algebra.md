@@ -7,9 +7,12 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
+excerpt_separator: <!--more-->
 ---
 
 Linear Algebra is manipulations of vectors and matrices.
+
+<!--more-->
 
 ## Linear combination, span, and basis vectors
 

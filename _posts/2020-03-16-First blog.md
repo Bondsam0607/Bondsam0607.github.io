@@ -2,6 +2,7 @@
 layout: page
 title: First blog
 tags: Personal
+excerpt_separator: <!--more-->
 article_header:
   type: overlay
   theme: dark
@@ -10,3 +11,4 @@ article_header:
 ---
 
 From now on, I'm going to write some ideas and learning points here.
+<!--more-->

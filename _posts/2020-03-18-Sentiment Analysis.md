@@ -2,6 +2,7 @@
 layout: page
 title: Sentiment Analysis
 tags: AI
+excerpt_separator: <!--more-->
 article_header:
   type: overlay
   theme: dark
@@ -10,6 +11,8 @@ article_header:
 ---
 
 Using LSTM to apply sentiment analysis.
+
+<!--more-->
 
 Five phases:
 
