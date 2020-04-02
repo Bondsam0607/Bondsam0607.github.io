@@ -32,12 +32,6 @@ articles:
   show_readmore: true
   show_info: true
 ---
-<div class="layout--home">
-  {%- include paginator.html -%}
-</div>
-<script>
-  {%- include scripts/home.js -%}
-</script>
 
 <div class="swiper swiper-demo" style="height : 220px">
   <div class="swiper__wrapper">
@@ -52,5 +46,14 @@ articles:
   <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
 </div>
+
+
+<div class="layout--home">
+  {%- include paginator.html -%}
+</div>
+<script>
+  {%- include scripts/home.js -%}
+</script>
+
 
 {{ content }}
