@@ -117,7 +117,7 @@ $$\int\int\lambda_1\lambda_2e^{-\lambda_1x-\lambda_2y}dxdy\\=\int_{0}^{\infty}\l
 
 $$N(t)$$表示在时刻$$t$$的状态，$$N(t)=k$$，称为在$$t$$时刻系统处于状态$$k$$。
 
-![生灭过程](/images/Network_Theory/markov.png)
+<img src="/images/Network_Theory/markov.png" width="60%"/>
 
 #### 稳态分布
 
@@ -125,7 +125,7 @@ $$N(t)$$表示在时刻$$t$$的状态，$$N(t)=k$$，称为在$$t$$时刻系统�
 
 $$p_{ik}(t)>=0, \sum_{k=0}^{\infty}(t)=1$$
 
-![生灭过程](/images/Network_Theory/markov.png)
+<img src="/images/Network_Theory/markov.png" width="60%"/>
 
 $$p_k(t+\Delta t)=\sum_{i=0}^{\infty}p_i(t)p_{ik}(\Delta t) \\ =p_k(t)(1-(\lambda_k+\mu_k)\Delta t+o(t))+p_{k-1}(t)(\lambda_{k-1}\Delta t+o(t))+p_{k+1}(t)(\mu_{k+1}\Delta t+o(t))+o(\Delta t)$$
 
@@ -165,7 +165,7 @@ $$p_0\sum_{k=0}^{\infty}=1$$
 - 服务时间
 - 排队方式
 
-![移动模型](/images/Network_Theory/sequence.png)
+<img src="/images/Network_Theory/sequence.png" width="60%"/>
 
 如上图所示，$$t_1,t_2$$表示顾客到达排队系统的到达时间间隔，$$\tau_1,\tau_2$$表示不同顾客的服务时间。满足以下假设：
 
@@ -201,7 +201,7 @@ M表示负指数分布，1表示服务员数目，缺省表示容量无限大和
 
 假设M/M/1的到达过程符合$$\lambda$$的Possion过程，服务时间是参数为$$\mu$$的负指数分布
 
-![M/M/1](/images/Network_Theory/MM1.png)
+<img src="/images/Network_Theory/MM1.png" width="60%"/>
 
 令$$\rho = \frac{\lambda}{\mu}$$
 
@@ -243,7 +243,7 @@ M/M/1排队系统在稳态时，顾客在系统中停留时间$$s$$服从参数�
 
 #### 电话交换系统
 
-![电话交换系统](/images/Network_Theory/tele_ex.png)
+<img src="/images/Network_Theory/tele_ex.png" width="60%"/>
 
 ##### 业务量
 
@@ -277,7 +277,7 @@ $$时间阻塞率p_s=\frac{\mbox{阻塞时间}}{\mbox{观察时间}}$$
 
 #### 数据交换系统
 
-![数据交换系统](/images/Network_Theory/data_ex.png)
+<img src="/images/Network_Theory/data_ex.png" width="60%"/>
 
 - 信息被截为变长分组，在每条入线上，有不同的到达率。
 - 分组包到达交换系统后，根据路由表完成交换到达相应的出口
