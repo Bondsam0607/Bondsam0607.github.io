@@ -49,7 +49,7 @@ The main difference between RNN and other feedforword NNs is the temporal aspect
 
 Each input sequecce will be associated with a time step.
 
-![time step](/images/Sentiment_Analysis/SentimentAnalysis18.png)
+<img src="/images/Sentiment_Analysis/SentimentAnalysis18.png" width="60%" />
 
 $$h_t = \sigma(W^Hh_{t-1}+W_Xx_t)$$
 
@@ -63,7 +63,7 @@ From the formula above, we can see that each hidden state node encapsulate and s
 
 LSTM(Long Short Term Memory Units) are modules that you can place inside of a RNN.
 
-![LSTMs](/images/Sentiment_Analysis/SentimentAnalysis10.png)
+<img src="/images/Sentiment_Analysis/SentimentAnalysis10.png" width="60%" />
 
 ### Why do we need LSTM?
 
