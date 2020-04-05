@@ -37,7 +37,7 @@ Word2Vec Model creates word vectors by looking at the context with which words a
 
 The output of a Word2Vec model is called an **embeddig matrix**.
 
-![embedding matrix](/images/Sentiment_Analysis/SentimentAnalysis3.png)
+<img class="image image--xl" src="/images/Sentiment_Analysis/SentimentAnalysis3.png"/>
 
 The embedding matrix is made up of all the distinct word in the training corpus. 
 
