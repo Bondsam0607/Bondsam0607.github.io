@@ -14,6 +14,8 @@ Linear Algebra is manipulations of vectors and matrices.
 
 <!--more-->
 
+***
+
 ## Linear combination, span, and basis vectors
 
 ### Linear combination
@@ -37,6 +39,8 @@ a n-dimension span is spanned up by n vectors which are not linear dependent to 
 basis vectors are serveral vectors which are perpendicular to each other.
 
 basis vectors are often used to describe other vectors in the span which is spanned up by the n basis vectors.
+
+***
 
 ## Linear transformation and matrices
 
@@ -228,6 +232,8 @@ Then we take a look at a special situation where the determinant of the matrix i
 If the determinant of a matrix is 0, it means that the matrix squeeze the vector spacve into a lower dimension space such as from a cube to a panel or from a panel to a line.
 
 So it makes sense that the determinant is 0 because the area is zero.
+
+***
 
 ## Inverse matrices, column space and null space
 
