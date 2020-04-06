@@ -310,13 +310,13 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 
 **M/M/s状态转移图**
 
-<img src="/images/Network_Theory/mms.png" width="60%"/>
+<img src="/Users/bondsam/Documents/GitHub/Bondsam0607.github.io/images/Network_Theory/mms.png" width="60%"/>
 
 根据稳态分布规律：$$p_k = \frac{1}{k!}(\frac{\lambda}{\mu})^kp_0, k=1,2,...,s$$
 
 令 $$a = \frac{\lambda}{\mu}$$
 
-得：p_k = \frac{1}{k!}a^kp_0
+得：$$p_k = \frac{1}{k!}a^kp_0$$
 
 根据归一性：$$\sum_{k=0}^{s}\frac{1}{k!}a^kp_0=1$$
 
@@ -324,10 +324,29 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 
 #### Erlang公式
 
-稳态分布为:
+稳态分布为: $$p_k=\frac{\frac{a^k}{k!}}{\sum_{r=0}^{s}\frac{a^r}{r!}}, k=0,1,...,s$$
+
+**Erlang-B公式**：$$B(s,a)=\frac{\frac{a^s}{s!}}{\sum_{r=0}^{s}\frac{a^r}{r!}}, a = \frac{\lambda}{\mu}$$
+
+#### M/M/$$\infty$$
+
+<img src="/images/Network_Theory/mmi.png" width="60%"/>
+
+令$$a=\frac{\lambda}{\mu}$$
+
+则$$p_k=(\frac{\lambda}{\mu})^k\frac{1}{k!}p_0=\frac{a^k}{k!}p_0$$
+
+由$$\sum_{k=0}^{\infty}p_k=1$$
+
+得$$p_0=e^{-a}$$
+
+所以$$p_k=\frac{a^k}{k!}e^{-a}$$
+
+
+
+
 
 
 ### 三、Erlang等待制系统
 
 ### 四、一般混合制的MMs系统
-
