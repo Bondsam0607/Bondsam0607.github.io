@@ -214,7 +214,7 @@ M表示负指数分布，1表示服务员数目，缺省表示容量无限大和
 
 由$$\sum_{k=0}^{\infty}\rho^k=\frac{1-\rho^\infty}{1-\rho}=\frac{1}{1-\rho}$$
 
-$$p_0 \sum_{k=0}^{\infty}=p_0 \frac{1}{1-\rho}=\frac{p_0}{1-\rho}=1$$
+$$p_0 \sum_{k=0}^{\infty}\rho^k=p_0 \frac{1}{1-\rho}=\frac{p_0}{1-\rho}=1$$
 
 $$p_0=1-\rho\\p_k=\rho^k(1-\rho)$$
 
@@ -303,3 +303,9 @@ $$\mbox{全网平均呼损}=\frac{\sum_{i<j}a_{ij}P_{i,j}}{\sum_{i<j}a_{ij}}$$
 ##### 数据网——全网平均时延
 
 $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq j}\lambda_{ij}}$$
+
+### 二、Erlang即时拒绝系统
+
+**M/M/s状态转移图**
+
+<img src="/images/Network_Theory/mms.png" width="60%"/>
