@@ -150,7 +150,7 @@ $$\frac{dp_k(t)}{dt}=-(\lambda_k+\mu_k)p_k(t)+\lambda_{k-1}p_{k-1}(t)+\mu_{k+1}p
 
 由 $$\sum_{k=0}^{\infty}p_k=1$$
 
-$$p_0\sum_{k=0}^{\infty}=1$$
+$$p_0\sum_{k=0}^{\infty}\theta_k=1$$
 
 #### 定理2-3 ： 极限定理
 
