@@ -306,6 +306,28 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 
 ### 二、Erlang即时拒绝系统
 
+#### MMs系统
+
 **M/M/s状态转移图**
 
 <img src="/images/Network_Theory/mms.png" width="60%"/>
+
+根据稳态分布规律：$$p_k = \frac{1}{k!}(\frac{\lambda}{\mu})^kp_0, k=1,2,...,s$$
+
+令 $$a = \frac{\lambda}{\mu}$$
+
+得：p_k = \frac{1}{k!}a^kp_0
+
+根据归一性：$$\sum_{k=0}^{s}\frac{1}{k!}a^kp_0=1$$
+
+得：$$p_0=\frac{1}{\sum_{k=0}^{s}\frac{a^r}{r!}}$$
+
+#### Erlang公式
+
+稳态分布为:
+
+
+### 三、Erlang等待制系统
+
+### 四、一般混合制的MMs系统
+
