@@ -124,7 +124,7 @@ $$N(t)$$表示在时刻$$t$$的状态，$$N(t)=k$$，称为在$$t$$时刻系统�
 
 记$$p_{ik}(t)$$为系统从状态$$i$$经过时间$$t$$后转移到$$k$$的条件概率
 
-$$p_{ik}(t)>=0, \sum_{k=0}^{\infty}(t)=1$$
+$$p_{ik}(t)>=0, \sum_{k=0}^{\infty}p_{ik}(t)=1$$
 
 <img src="/images/Network_Theory/markov.png" width="60%"/>
 
@@ -144,7 +144,7 @@ $$\frac{dp_k(t)}{dt}=-(\lambda_k+\mu_k)p_k(t)+\lambda_{k-1}p_{k-1}(t)+\mu_{k+1}p
 
 即 $$p_k=\frac{\lambda_{k-1}}{\mu_k}p_{k-1}$$
 
-令 $$\theta_k={\lambda_0 \lambda_1 ... \lambda_{k-1}}{\mu_1 \mu_2 ... \mu_k}, k>=1 $$
+令 $$\theta_k=frac{\lambda_0 \lambda_1 ... \lambda_{k-1}}{\mu_1 \mu_2 ... \mu_k}, k>=1 $$
 
 得 $$p_k = \theta_k p_0, k=1,2,3...$$
 
