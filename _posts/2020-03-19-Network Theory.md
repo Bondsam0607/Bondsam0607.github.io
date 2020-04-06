@@ -144,7 +144,7 @@ $$\frac{dp_k(t)}{dt}=-(\lambda_k+\mu_k)p_k(t)+\lambda_{k-1}p_{k-1}(t)+\mu_{k+1}p
 
 即 $$p_k=\frac{\lambda_{k-1}}{\mu_k}p_{k-1}$$
 
-令 $$\theta_k=frac{\lambda_0 \lambda_1 ... \lambda_{k-1}}{\mu_1 \mu_2 ... \mu_k}, k>=1 $$
+令 $$\theta_k=\frac{\lambda_0 \lambda_1 ... \lambda_{k-1}}{\mu_1 \mu_2 ... \mu_k}, k>=1 $$
 
 得 $$p_k = \theta_k p_0, k=1,2,3...$$
 
