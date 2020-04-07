@@ -68,7 +68,7 @@ graph LR;
 
   **USE CASE:** dimensionality reduction and compression
 
-  ![0*ojxTDQrywFP6HuV8](/Users/bondsam/Downloads/0*ojxTDQrywFP6HuV8.png)
+  <img src="/images/AI/AutoEncoder.png" width="60%" />
 
 - h is a representation with fewer dimensions
 
