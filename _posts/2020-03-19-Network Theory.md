@@ -328,6 +328,8 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 
 **Erlang-B公式**：$$B(s,a)=\frac{\frac{a^s}{s!}}{\sum_{r=0}^{s}\frac{a^r}{r!}}, a = \frac{\lambda}{\mu}$$
 
+该公式指的是系统的时间阻塞率
+
 #### M/M/$$\infty$$
 
 <img src="/images/Network_Theory/mmi.png" width="60%"/>
@@ -342,7 +344,19 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 
 所以$$p_k=\frac{a^k}{k!}e^{-a}$$
 
+该式子服从参数为a的柏松分布，如果k为系统中的呼叫数，则其平均队长$$E[N]$$和方差$$Var[N]$$同为a
 
+系统通过的呼叫量为被占用的平均中继线数
+
+通过的呼叫量为$$a'=\sum_{k=1}^{s}=a[1-B(s,a)]$$
+
+<img src="/images/Network_Theory/callamount.png" width="60%"/>
+
+每条中继线平均承载的呼叫量为$$\eta=\eta_s=\frac{a'}{s}$$
+
+#### 大群化效应
+
+在同样时间阻塞率下，分散的中继线群承载的总呼叫量小于中继线集中后承载的呼叫量。
 
 
 
