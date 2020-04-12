@@ -366,7 +366,7 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 - 计算一个呼叫到来时需要等待的概率
 - 等待时间的分布、均值
 
-<img src="/images/Network_Theory/mmi.png" width="60%"/>
+<img src="/images/Network_Theory/wait.png" width="60%"/>
 
 #### 计算稳态分布
 
