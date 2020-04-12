@@ -310,7 +310,7 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 
 **M/M/s状态转移图**
 
-<img src="/Users/bondsam/Documents/GitHub/Bondsam0607.github.io/images/Network_Theory/mms.png" width="60%"/>
+<img src="/images/Network_Theory/mms.png" width="60%"/>
 
 根据稳态分布规律：$$p_k = \frac{1}{k!}(\frac{\lambda}{\mu})^kp_0, k=1,2,...,s$$
 
