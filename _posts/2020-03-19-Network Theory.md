@@ -358,9 +358,49 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 
 在同样时间阻塞率下，分散的中继线群承载的总呼叫量小于中继线集中后承载的呼叫量。
 
-
-
-
 ### 三、Erlang等待制系统
+
+系统有s条中继线，如果呼叫到来时系统中没有空闲的中继线，该呼叫不被拒绝而是等待。
+
+- 计算稳态分布
+- 计算一个呼叫到来时需要等待的概率
+- 等待时间的分布、均值
+
+<img src="/images/Network_Theory/mmi.png" width="60%"/>
+
+#### 计算稳态分布
+
+设$$p_k$$为稳态分布，$$a=\frac{\lambda}{\mu}$$，则
+
+$$\begin{equation}
+p_k=\left\{\begin{aligned}
+\frac{a^k}{k!}p_0 & , & 0\leq k <s\\
+\frac{a^k}{s!s^{k-s}}p_0 & , & k\geq s
+\end{aligned}
+\right.
+\end{equation}$$
+
+根据概率归一性
+
+$$\frac{1}{p_0}=\sum_{k=0}^{s-1}\frac{a^k}{k!}+\frac{a^s}{s!}\sum_{k=s}^{\infty}(\frac{a}{s})^{k-s}$$
+
+在$$a<s$$时，该系统有稳态，且
+
+$$p_0=\frac{1}{\sum_{k=0}^{s-1}\frac{a^k}{k!}+\frac{a^s}{s!}\frac{1}{1-\frac{a}{s}}}$$
+
+#### 计算等待概率
+
+设w为呼叫需要等待的时间
+
+$$p(w>0)\\=\sum_{k=s}^{\infty}p_k=\frac{a^s}{s!}p_0\sum_{k=s}^{\infty}(\frac{a}{s})^k\\=\frac{a^s}{s!}\frac{p_0}{1-\frac{a}{s}} , a<s$$
+
+上式为$$C(s,a)=\frac{a^s}{s!}\frac{p_0}{1-\frac{a}{s}}$$, **Erlang-C公式**
+
+该公式用来计算一个呼叫需要等待的概率
+
+#### 等待时间的分布、均值
+
+平均呼叫数$$E[N]=\sum_{k=0}^{\infty}kp_k=\sum_{k=0}^{s}k\frac{a^k}{k!}p_0+\sum_{k=s+1}^{\infty}\frac{ka^k}{s!s^{k-s}}p_0$$
+
 
 ### 四、一般混合制的MMs系统
