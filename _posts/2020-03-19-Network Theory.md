@@ -400,7 +400,15 @@ $$p(w>0)\\=\sum_{k=s}^{\infty}p_k=\frac{a^s}{s!}p_0\sum_{k=s}^{\infty}(\frac{a}{
 
 #### 等待时间的分布、均值
 
-平均呼叫数$$E[N]=\sum_{k=0}^{\infty}kp_k=\sum_{k=0}^{s}k\frac{a^k}{k!}p_0+\sum_{k=s+1}^{\infty}\frac{ka^k}{s!s^{k-s}}p_0$$
+**均值**
+平均呼叫数：$$E[N]=\frac{\rho}{1-\rho}C(s,a)+a$$
+其中$$\rho=\frac{a}{s}$$
+根据Little公式：$$N=\lambda T$$
+得：$$E[w]=E[N]/\lambda = \frac{C(s,a)}{s\mu -\lambda}$$
 
+**分布**
+$$p_k\{w>t\}$$表示呼叫到达时系统中有k个顾客的情况下等待时间的概率。
+$$p\{w>t\}=C(s,a)e^{-(s\mu - \lambda )t}$$
 
 ### 四、一般混合制的MMs系统
+
