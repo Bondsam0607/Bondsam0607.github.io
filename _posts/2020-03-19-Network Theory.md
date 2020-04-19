@@ -412,3 +412,45 @@ $$p\{w>t\}=C(s,a)e^{-(s\mu - \lambda )t}$$
 
 ### 四、一般混合制的MMs系统
 
+系统中有s个服务员，系统容量为n。到达的呼叫流为参数$$\lambda$$的Poisson过程，服务时间服从参数为$$\mu$$的负指数分布。
+
+<img src="/images/Network_Theory/mmsn.png" width="60%"/>
+
+#### 稳态分布
+
+根据极限定理：
+
+$$\begin{equation}
+p_k=\left\{\begin{aligned}
+\frac{a^k}{k!}p_0 & , & 0\leq k <s\\
+\frac{a^k}{s!s^{k-s}}p_0 & , & s\leq k \leq n
+\end{aligned}
+\right.
+\end{equation}$$
+
+根据概率归一性：
+
+$$\frac{1}{p_0}=\sum_{k=0}^{s-1}\frac{a^k}{k!}+\frac{a^s}{s!}\frac{s}{s-a}[1-(\frac{a}{s})^{n-s+1}]$$
+
+#### 时间阻塞率
+
+呼叫需要等待的概率：
+
+$$p\{w>0\}=C_n(s,a)=\sum_{k=s}^{n}p_k=\frac{a^s}{s!}\frac{s}{s-a}[1-(\frac{a}{s})^{n-s+1}]p_0$$
+
+时间阻塞率为：
+
+$$p_n=B_n(s,a)=\frac{a^n}{s!s^{n-s}}p_0$$
+
+## 第四章 通信网性能分析
+
+### 一、介绍
+
+### 二、重复呼叫流
+
+### 三、溢出呼叫流
+
+### 四、电话网络平均呼损的计算
+
+### 五、数据网络的平均时延
+
