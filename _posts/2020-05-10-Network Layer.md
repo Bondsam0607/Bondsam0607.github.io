@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Computer Network
+title: Network Layer
 tags: Computer Network
 excerpt_separator: <!--more-->
 article_header:
