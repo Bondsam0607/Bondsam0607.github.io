@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Computer Network
-tags: Computer Network
+tags: Computer_Network
 excerpt_separator: <!--more-->
 article_header:
   type: overlay
