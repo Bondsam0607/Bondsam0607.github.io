@@ -138,7 +138,9 @@ DROP FOREIGN KEY FK_PersonOrder;
 - CHECK
 
 > The CHECK constraint is used to limit the value range that can be placed in a column.
+
 > If you define a CHECK constraint on a single column it allows only certain values for this column.
+
 > If you define a CHECK constraint on a table it can limit the values in certain columns based on values in other columns in the row.
 
 ```
@@ -209,9 +211,13 @@ ALTER TABLE Persons AUTO_INCREMENT=100;
 - SQL Dates
 
 > MySQL comes with the following data types for storing a date or a date/time value in the database:
+
 > DATE - format YYYY-MM-DD
+
 > DATETIME - format: YYYY-MM-DD HH:MI:SS
+
 > TIMESTAMP - format: YYYY-MM-DD HH:MI:SS
+
 > YEAR - format YYYY or YY
 
 ```

@@ -334,6 +334,7 @@ HAVING COUNT(CustomerID) > 5;
 - SQL EXISTS
 
 > The EXISTS operator is used to test for the existence of any record in a subquery.
+
 > The EXISTS operator returns true if the subquery returns one or more records.
 
 ```
@@ -346,7 +347,9 @@ WHERE EXISTS
 - SQL ANY and ALL
 
 > The ANY and ALL operators are used with a WHERE or HAVING clause.
+
 > The ANY operator returns true if any of the subquery values meet the condition.
+
 > The ALL operator returns true if all of the subquery values meet the condition.
 
 ```
