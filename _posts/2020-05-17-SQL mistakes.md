@@ -10,6 +10,8 @@ article_header:
   background_image: false
 ---
 
+<!--more-->
+
 ## SQL mistakes
 
 1. Select all the *different* values from the `Country` column in the `Customers` table.
