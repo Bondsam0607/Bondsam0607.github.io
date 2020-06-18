@@ -118,7 +118,7 @@ $$\int\int\lambda_1\lambda_2e^{-\lambda_1x-\lambda_2y}dxdy\\=\int_{0}^{\infty}\l
 
 $$N(t)$$表示在时刻$$t$$的状态，$$N(t)=k$$，称为在$$t$$时刻系统处于状态$$k$$。
 
-<img src="/images/Network_Theory/markov.png" width="60%"/>
+<img src="../images/Network_Theory/markov.png" width="60%"/>
 
 #### 稳态分布
 
@@ -126,7 +126,7 @@ $$N(t)$$表示在时刻$$t$$的状态，$$N(t)=k$$，称为在$$t$$时刻系统�
 
 $$p_{ik}(t)>=0, \sum_{k=0}^{\infty}p_{ik}(t)=1$$
 
-<img src="/images/Network_Theory/markov.png" width="60%"/>
+<img src="../images/Network_Theory/markov.png" width="60%"/>
 
 $$p_k(t+\Delta t)=\sum_{i=0}^{\infty}p_i(t)p_{ik}(\Delta t) \\ =p_k(t)(1-(\lambda_k+\mu_k)\Delta t+o(t))+p_{k-1}(t)(\lambda_{k-1}\Delta t+o(t))+p_{k+1}(t)(\mu_{k+1}\Delta t+o(t))+o(\Delta t)$$
 
@@ -166,7 +166,7 @@ $$p_0\sum_{k=0}^{\infty}\theta_k=1$$
 - 服务时间
 - 排队方式
 
-<img src="/images/Network_Theory/sequence.png" width="60%"/>
+<img src="../images/Network_Theory/sequence.png" width="60%"/>
 
 如上图所示，$$t_1,t_2$$表示顾客到达排队系统的到达时间间隔，$$\tau_1,\tau_2$$表示不同顾客的服务时间。满足以下假设：
 
@@ -244,7 +244,7 @@ M/M/1排队系统在稳态时，顾客在系统中停留时间$$s$$服从参数�
 
 #### 电话交换系统
 
-<img src="/images/Network_Theory/tele_ex.png" width="60%"/>
+<img src="../images/Network_Theory/tele_ex.png" width="60%"/>
 
 ##### 业务量
 
@@ -310,7 +310,7 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 
 **M/M/s状态转移图**
 
-<img src="/images/Network_Theory/mms.png" width="60%"/>
+<img src="../images/Network_Theory/mms.png" width="60%"/>
 
 根据稳态分布规律：$$p_k = \frac{1}{k!}(\frac{\lambda}{\mu})^kp_0, k=1,2,...,s$$
 
@@ -332,7 +332,7 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 
 #### M/M/$$\infty$$
 
-<img src="/images/Network_Theory/mmi.png" width="60%"/>
+<img src="../images/Network_Theory/mmi.png" width="60%"/>
 
 令$$a=\frac{\lambda}{\mu}$$
 
@@ -350,7 +350,7 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 
 通过的呼叫量为$$a'=\sum_{k=1}^{s}=a[1-B(s,a)]$$
 
-<img src="/images/Network_Theory/callamount.png" width="60%"/>
+<img src="../images/Network_Theory/callamount.png" width="60%"/>
 
 每条中继线平均承载的呼叫量为$$\eta=\eta_s=\frac{a'}{s}$$
 
@@ -366,7 +366,7 @@ $$\mbox{全网平均时延}=\frac{\sum_{i\neq j}\lambda_{ij}T_{ij}}{\sum_{i\neq 
 - 计算一个呼叫到来时需要等待的概率
 - 等待时间的分布、均值
 
-<img src="/images/Network_Theory/wait.png" width="60%"/>
+<img src="../images/Network_Theory/wait.png" width="60%"/>
 
 #### 计算稳态分布
 
@@ -414,7 +414,7 @@ $$p\{w>t\}=C(s,a)e^{-(s\mu - \lambda )t}$$
 
 系统中有s个服务员，系统容量为n。到达的呼叫流为参数$$\lambda$$的Poisson过程，服务时间服从参数为$$\mu$$的负指数分布。
 
-<img src="/images/Network_Theory/mmsn.png" width="60%"/>
+<img src="../images/Network_Theory/mmsn.png" width="60%"/>
 
 #### 稳态分布
 
