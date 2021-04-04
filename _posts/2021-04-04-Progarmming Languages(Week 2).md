@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Programming Languages
-tags: Programming Languages
+title: Programming_Languages
+tags: Programming_Languages
 excerpt_separator: <!--more-->
 article_header:
   type: overlay
